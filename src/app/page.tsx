@@ -4,22 +4,13 @@ import Footer from '@/components/Footer';
 import Image from 'next/image';
 import React from 'react';
 import heroImage from '@/components/images/Gemini_Generated_Image_64gbmr64gbmr64gb-removebg-preview.png'; // Adjust the path as necessary
-import backgroundImageCover from '@/components/images/arif.jpg'; // Adjust the path as necessary
 import AppleLogo from '@/components/images/Apple-Logosu.png'; // Adjust the path as necessary
 import GoogleLogo from '@/components/images/googleplay.png'; // Adjust the path as necessary
 
 export default function Home() {
 	return (
 		<div className="relative flex flex-col items-center justify-between min-h-screen bg-[#FFF0EB]">
-			<Image
-				src={backgroundImageCover}
-				alt="Background"
-				fill
-				style={{ objectFit: 'cover', zIndex: 0 }}
-				className="pointer-events-none"
-			/>
-			{/* Overlay shade */}
-			<div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-200/60 to-black/70 z-[1] pointer-events-none"></div>
+			{/* Overlay shade removed since background image is gone */}
 			<div className="relative z-10 w-full">
 				<Header />
 				<section className="grid grid-cols-2 w-full h-full p-16">
@@ -72,7 +63,7 @@ export default function Home() {
 								</div>
 								<div className="flex flex-col items-start justify-center w-2/3 h-full">
 									<div className="text-xs">Download on the</div>
-									<div>App Store</div>
+									<div className='text-sm'>App Store</div>
 								</div>
 							</button>
 							<button className="flex item-center bg-amber-50 w-36 h-12 rounded-lg shadow">
@@ -80,13 +71,13 @@ export default function Home() {
 									<Image
 										src={GoogleLogo}
 										alt="Google Play"
-										width={50}
-										height={50}
+										width={24}
+										height={24}
 									/>
 								</div>
 								<div className="flex flex-col items-start justify-center w-2/3 h-full">
 									<div className="text-xs">Available on</div>
-									<div>Google Play</div>
+									<div className='text-sm'>Google Play</div>
 								</div>
 							</button>
 						</div>

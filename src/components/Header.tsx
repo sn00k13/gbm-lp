@@ -31,7 +31,7 @@ function Header() {
 				</Link>
 			</div>
 			<div className="flex items-center justify-end w-full">
-				<nav className="flex space-x-4 text-md items-center text-white">
+				<nav className="flex space-x-4 text-md items-center">
 					<Link href="/">Home</Link>
 					<Link href="/services">Services</Link>
 					<Link href="/about">About Us</Link>
