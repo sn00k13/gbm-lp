@@ -63,7 +63,7 @@ export default function Home() {
 								</div>
 								<div className="flex flex-col items-start justify-center w-2/3 h-full">
 									<div className="text-xs">Download on the</div>
-									<div className='text-sm'>App Store</div>
+									<div className="text-sm">App Store</div>
 								</div>
 							</button>
 							<button className="flex item-center bg-amber-50 w-36 h-12 rounded-lg shadow">
@@ -77,7 +77,7 @@ export default function Home() {
 								</div>
 								<div className="flex flex-col items-start justify-center w-2/3 h-full">
 									<div className="text-xs">Available on</div>
-									<div className='text-sm'>Google Play</div>
+									<div className="text-sm">Google Play</div>
 								</div>
 							</button>
 						</div>

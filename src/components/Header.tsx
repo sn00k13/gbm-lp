@@ -35,57 +35,61 @@ function Header() {
 							/>
 						</div>
 						<div className="flex flex-col">
-							<span className="text-2xl font-bold text-[#FF521B] leading-tight">GoBuyMe</span>
-							<span className="text-xs text-gray-500 -mt-1">Deliver Happiness</span>
+							<span className="text-2xl font-bold text-[#FF521B] leading-tight">
+								GoBuyMe
+							</span>
+							<span className="text-xs text-gray-500 -mt-1">
+								Deliver Happiness
+							</span>
 						</div>
 					</Link>
 
 					{/* Desktop Navigation */}
 					<nav className="hidden lg:flex items-center space-x-8">
-						<Link 
-							href="/" 
+						<Link
+							href="/"
 							className="text-gray-700 hover:text-[#FF521B] font-medium transition-colors duration-200 relative group"
 						>
 							Home
 							<span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#FF521B] transition-all duration-200 group-hover:w-full"></span>
 						</Link>
-						<Link 
-							href="/services" 
+						<Link
+							href="/services"
 							className="text-gray-700 hover:text-[#FF521B] font-medium transition-colors duration-200 relative group"
 						>
 							Services
 							<span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#FF521B] transition-all duration-200 group-hover:w-full"></span>
 						</Link>
-						<Link 
-							href="/features" 
+						<Link
+							href="/features"
 							className="text-gray-700 hover:text-[#FF521B] font-medium transition-colors duration-200 relative group"
 						>
 							Features
 							<span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#FF521B] transition-all duration-200 group-hover:w-full"></span>
 						</Link>
-						<Link 
-							href="/about" 
+						<Link
+							href="/about"
 							className="text-gray-700 hover:text-[#FF521B] font-medium transition-colors duration-200 relative group"
 						>
 							About
 							<span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#FF521B] transition-all duration-200 group-hover:w-full"></span>
 						</Link>
-						<Link 
-							href="/vendors" 
+						<Link
+							href="/vendors"
 							className="text-gray-700 hover:text-[#FF521B] font-medium transition-colors duration-200 relative group"
 						>
 							For Vendors
 							<span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#FF521B] transition-all duration-200 group-hover:w-full"></span>
 						</Link>
-						<Link 
-							href="/careers" 
+						<Link
+							href="/careers"
 							className="text-gray-700 hover:text-[#FF521B] font-medium transition-colors duration-200 relative group"
 						>
 							Careers
 							<span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#FF521B] transition-all duration-200 group-hover:w-full"></span>
 						</Link>
-						<Link 
-							href="/contact" 
+						<Link
+							href="/contact"
 							className="text-gray-700 hover:text-[#FF521B] font-medium transition-colors duration-200 relative group"
 						>
 							Contact
@@ -95,12 +99,22 @@ function Header() {
 
 					{/* CTA Buttons */}
 					<div className="hidden lg:flex items-center space-x-4">
-						<Link 
-							href="/downloads" 
+						<Link
+							href="/downloads"
 							className="bg-gradient-to-r from-[#FF521B] to-orange-500 text-white px-6 py-2.5 rounded-lg font-semibold hover:from-orange-500 hover:to-[#FF521B] transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg flex items-center space-x-2"
 						>
-							<svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+							<svg
+								className="w-4 h-4"
+								fill="none"
+								stroke="currentColor"
+								viewBox="0 0 24 24"
+							>
+								<path
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									strokeWidth={2}
+									d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
+								/>
 							</svg>
 							<span>Download App</span>
 						</Link>
